@@ -30,7 +30,7 @@ http.createServer( function(req, res) {
 		".png": "image/png",
 		".woff": "application/font-woff",
 		".woff2": "application/font-woff2",
-        "./": "text/html"
+        ".ico": "image/x-icon"
 	};
 
 	var validMimeType = true;
