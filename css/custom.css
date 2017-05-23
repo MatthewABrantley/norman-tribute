@@ -19,4 +19,6 @@ overflow: hidden;
 .carousel-control { 
     background-image:none !important; 
 }
-
+.glyphicon {
+    text-shadow: 2px 2px 3px #000000,  0 0 5px blue;
+}
