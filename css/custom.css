@@ -1,24 +1,29 @@
 body {
     background-color: #eeeeee;
 }
+
 #carouseltext {
-    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     background: grey;
 }
+
 #myCarousel {
-border-radius: 55px 55px 55px 55px;
-overflow: hidden;
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
 }
+
 #roundborderimage {
     border: 1px solid #eeeeee;
     border-radius: 25px;
     overflow: hidden;
 }
-.carousel-control { 
-    background-image:none !important; 
+
+.carousel-control {
+    background-image: none !important;
 }
+
 .glyphicon {
-    text-shadow: 2px 2px 3px #000000,  0 0 5px blue;
+    text-shadow: 2px 2px 3px #000000, 0 0 5px blue;
 }
