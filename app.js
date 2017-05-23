@@ -29,7 +29,8 @@ http.createServer( function(req, res) {
 		".gif": "image/gif",
 		".png": "image/png",
 		".woff": "application/font-woff",
-		".woff2": "application/font-woff2"
+		".woff2": "application/font-woff2",
+        "./": "text/html"
 	};
 
 	var validMimeType = true;
@@ -46,8 +47,7 @@ http.createServer( function(req, res) {
 				getFile(localPath, res, mimeType);
 			} else {
 				console.log("File not found: " + localPath);
-				res.writeHead(404);
-				res.end();
+				getFile(index.html)
 			}
 		});
 
