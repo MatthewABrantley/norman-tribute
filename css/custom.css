@@ -8,3 +8,16 @@ body {
     padding: 25px;
     background: grey;
 }
+#myCarousel {
+border-radius: 55px 55px 55px 55px;
+overflow: hidden;
+}
+#roundborderimage {
+    border: 1px solid #eeeeee;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.carousel-control { 
+    background-image:none !important; 
+}
+
